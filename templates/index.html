@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WhatsApp Extension</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>WhatsApp Text Assistant</h2>
+        
+        <textarea id="inputText" placeholder="Paste WhatsApp text here..."></textarea>
+        
+        <div class="buttons">
+            <button id="slangBtn">Change Slang: Gen Z / Professional</button>
+            <button id="translateBtn">Translate</button>
+        </div>
+
+        <input id="languageInput" placeholder="Enter target language (e.g., French, Hindi)">
+        
+        <div id="outputBox">Your result will appear here...</div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
