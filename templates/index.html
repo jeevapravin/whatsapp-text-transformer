@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>WhatsApp Extension</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Text Helper</title>
+  <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>WhatsApp Text Assistant</h2>
-        
-        <textarea id="inputText" placeholder="Paste WhatsApp text here..."></textarea>
-        
-        <div class="buttons">
-            <button id="slangBtn">Change Slang: Gen Z / Professional</button>
-            <button id="translateBtn">Translate</button>
-        </div>
+  <div class="container">
+    <h2>Smart Text Helper</h2>
 
-        <input id="languageInput" placeholder="Enter target language (e.g., French, Hindi)">
-        
-        <div id="outputBox">Your result will appear here...</div>
+    <button class="btn" id="expand"> Clarify Text </button>
+    <button class="btn" id="change-slang"> Adjust Tone </button>
+    <button class="btn" id="translate"> Translate Text</button>
+    
+    <input type="text" id="translateInput" class="hidden" placeholder="e.g., Spanish, Hindi, Tamil" />
+
     </div>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+  <script src="../static/script.js"></script>
 </body>
 </html>

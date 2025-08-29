@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Text Helper",
+  "version": "1.0",
+  "description": "Select text on any page to clarify, adjust tone, or translate it.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "static/background.js"
+  },
+  "action": {
+    "default_popup": "templates/index.html"
+  }
+}
