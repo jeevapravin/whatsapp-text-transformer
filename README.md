@@ -23,6 +23,11 @@ This extension was built to solve these common communication barriers. Instead o
 - **Translate Text**: Highlight any message and translate it into dozens of different languages without leaving your current tab.
 
 ---
+## Preview
+
+![1](image.png)
+
+![2](image-1.png)
 
 ## How to Use
 
