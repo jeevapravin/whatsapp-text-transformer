@@ -25,9 +25,10 @@ This extension was built to solve these common communication barriers. Instead o
 ---
 ## Preview
 
-![1](image.png)
+![1](Img/image-1.png)
 
-![2](image-1.png)
+![2](Img/image.png)
+
 
 ## How to Use
 
